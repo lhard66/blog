@@ -1,15 +1,6 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <!--
-         **
-         * Auther:      掌心
-         * Contact:     http://www.zhanxin.info
-         * Create:      2013.08.10
-         * Theme Name:  Kunka
-         * Authorize:   BY-NC-SA
-         **
-        -->
+    <head>        
         <meta charset="utf-8">
         <title>{% if page.title %}{{ page.title }} - {{ site.title }}{% else %}{{ site.title }}{% endif %}</title>
         <!-- meta -->
@@ -82,7 +73,7 @@
                         <h4 class="title">About me</h4>
                         <div class="det fn-clear">
                             <div class="det-image">
-                                <img src="{{ site.author.imageLink }}" />
+                                <img src="{{site.baseurl}}/{{ site.author.imageLink }}" />
                             </div>
                             <div class="det-text">
                                 <p>{{ site.author.simpleIntro }}</p>
